@@ -7,6 +7,12 @@ See the Dockerfile in environment. Make that docker file- then run the file in t
 
 First step- i just wanted to get a first push up. 
 
+1. Build mahout- copy dependency reduced jar as well as core/hsdf/spark jars to env/ 
+2. download apache spark 2.4.7 tgz also to env/
+3. build docker file, something like `docker build -t rawkintrevo/pymahout .`
+4. `docker run -it rawkintrevo/pymahout python`
+5. profit
+
 Good Mahouting,
 
 tg
